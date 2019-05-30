@@ -12,7 +12,7 @@ pipeline {
         stage('Build + Publish') {
             agent any
             steps {
-                 sh 'Test passed'
+                 sh 'Test passed!'
             }
         }
  
